@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.logo {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #200dcefa;
+}
+
+
+.aboutt {
+	background: rgb(224, 251, 222);
+	background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgba(185, 163, 252, 0.552) 100%);
+	padding: 100px 0 20px 0;
+	text-align: center;
+}
+
+.aboutt h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+
+.aboutt p {
+	font-size: 1rem;
+	color: #323030;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.aboutt-info {
+	margin: 2rem 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+
+.aboutt-img {
+	width: 40%;
+	height: 60%;
+
+}
+
+.aboutt-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	object-fit: contain;
+}
+
+.aboutt-info p {
+	font-size: 1.3rem;
+	margin: 0 2rem;
+	text-align: justify;
+}
+
+.buttons {
+	border: none;
+	outline: 0;
+	padding: 10px;
+	margin: 2rem;
+	font-size: 1rem;
+	color: white;
+	background-color: #3e0eaddd;
+	text-align: center;
+	cursor: pointer;
+	width: 15rem;
+	border-radius: 4px;
+}
+
+.button:hovers {
+	background-color: #310face6;
+}
+.teamii {
+	padding: 30px 0;
+	text-align: center;
+	background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+
+.teamii h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+
+
+.teamii-rcardr {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 15px;
+	margin-top: 20px;
+}
+
+.rcardr {
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	transition: transform 0.2s, box-shadow 0.2s;
+	width: 18rem;
+	height: 25rem;
+	margin-top: 10px;
+}
+
+.rcardr:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.rcardr-img {
+	width: 18rem;
+	height: 12rem;
+}
+
+.rcardr-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+.rcardr-info button {
+	margin: 2rem 1rem;
+}
+
+.rcardr-name {
+	font-size: 2rem;
+	margin: 10px 0;
+}
+
+.rcardr-role {
+	font-size: 1rem;
+	color: #888;
+	margin: 5px 0;
+}
+
+.rcardr-email {
+	font-size: 1rem;
+	color: #555;
+}
+.meetour{
+	text-align: center;
+}

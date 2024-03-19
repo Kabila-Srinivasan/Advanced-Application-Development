@@ -1,0 +1,56 @@
+
+  
+  .hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden; 
+    background-image: url('https://media2.thrillophilia.com/images/photos/000/012/856/original/1551881248_houseboat37.jpg?gravity=center&width=1280&height=642&crop=fill&quality=auto&fetch_format=auto&flags=strip_profile&format=jpg&sign_url=true');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    animation: glitter 5s infinite; 
+    z-index: -1;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+  }
+  
+  .hero-content .show {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8338ec; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-content .show:hover {
+    background-color: #6e2cc3; 
+  }
+  

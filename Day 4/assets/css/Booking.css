@@ -1,0 +1,92 @@
+.houseboat-voyage {
+    padding: 2rem;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .destinations {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .houseboat {
+    width: calc(33.33% - 2rem);
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .houseboat img {
+    width: 200%; 
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+    animation: roll 20s linear infinite; 
+  }
+  
+  @keyframes roll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%); 
+    }
+  }
+  
+  .houseboat h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .houseboat p {
+    margin: 0 1rem 1rem;
+    text-align: center;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .services img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .duration {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .book-now {
+    width: 100%;
+    padding: 1rem;
+    background-color: #8338ec;
+    color: white;
+    border: none;
+    border-radius: 0 0 1rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now:hover {
+    background-color: #6e2cc3;
+  }
+  
+  .swiper-container {
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    overflow: hidden;
+  }
+  

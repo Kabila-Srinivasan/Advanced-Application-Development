@@ -1,0 +1,81 @@
+/* UpdatePage.css */
+
+.update-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .notification-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .notification-content {
+    flex: 1;
+  }
+  
+  .notification-text {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .time {
+    font-size: 14px;
+    color: #888;
+  }
+  /* Update.css */
+/* Your existing CSS styles */
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color:#fff3e084; /* Pastel yellow background color */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.notification-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.notification-content {
+  background-color: #fff3e084; /* Pastel yellow background color */
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.notification-text {
+  color: #333;
+}
+
+.user-name {
+  font-weight: bold;
+}

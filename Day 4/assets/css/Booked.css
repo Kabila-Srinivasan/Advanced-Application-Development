@@ -1,0 +1,58 @@
+.service-booked-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #f6d46571, #fd9f855e);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .success-message {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .success-message h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .success-message p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .technician-details,
+  .service-center-details {
+    background-color: rgba(255, 255, 255, 0.304);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .technician-details h3,
+  .service-center-details h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .technician-details p,
+  .service-center-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  .ser{
+    background-color:#9999da;
+    padding: 70px 0;
+	background-image: url('https://c1.wallpaperflare.com/preview/148/701/214/kerala-houseboat-houseboat-booking-houseboat-package.jpg');
+    background-color: #fff;
+    background-size: cover;
+    padding: 20px;
+    height: 93vh;
+    width: 100vw;
+    margin: 0;
+  }

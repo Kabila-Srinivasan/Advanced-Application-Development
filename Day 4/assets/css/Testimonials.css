@@ -1,0 +1,137 @@
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f7f7f700;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .testimonials:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #f7f7f7;
+    border-radius: 0 0 50% 50% / 0 0 20px 20px;
+    z-index: -1;
+  }
+  
+  .testimonial-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .testimonial-text h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .testimonial-text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-text a {
+    text-decoration: none;
+    color: #3b5998;
+    font-weight: bold;
+  }
+  
+  .testimonial-text a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+ 
+  .cardu {
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      background-color:skyblue; 
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
+      position: relative;
+    }
+    
+    .cardu:nth-child(1n) {
+      background-color:skyblue; 
+    }
+    
+  
+    .cardu:nth-child(2n) {
+      background-color: #ffcccc;
+    }
+    
+    .cardu:nth-child(3n) {
+      background-color: #ccffcc;
+    }
+    
+    .cardu:nth-child(4n) {
+      background-color: #ccccff; 
+    }
+    
+  
+  .cardu:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardu img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .cardu p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  
+  .icon {
+    color: #4caf50;
+  }
+  
+  .card:before {
+    content: "🌟🌟🌟🌟🌟"; 
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  

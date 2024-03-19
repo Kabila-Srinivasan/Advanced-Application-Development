@@ -1,0 +1,51 @@
+.CustomerReview {
+    width: 100%;
+    max-width: 600px; /* Set the maximum width as per your layout */
+    margin: 0 auto; /* Center the chart horizontally */
+  
+    /* Add box shadow and border-radius for a card-like appearance */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the chart container */
+  .CustomerReview .apexcharts-canvas {
+    border-radius: 8px; /* Ensure the chart fits within the rounded corners */
+  }
+  
+  /* Style the tooltip */
+  .CustomerReview .apexcharts-tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+  }
+  
+  /* Style the tooltip header */
+  .CustomerReview .apexcharts-tooltip-title {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  /* Style the tooltip content */
+  .CustomerReview .apexcharts-tooltip-text-value {
+    font-size: 12px;
+  }
+  
+  /* Style the tooltip x-axis label */
+  .CustomerReview .apexcharts-tooltip-marker {
+    border-top-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Style the x-axis labels */
+  .CustomerReview .apexcharts-xaxis-texts {
+    font-size: 12px;
+    color: #333;
+  }
+  
+  /* Style the y-axis labels */
+  .CustomerReview .apexcharts-yaxis-texts {
+    font-size: 12px;
+    color: #333;
+  }
+  
